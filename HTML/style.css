@@ -1,0 +1,18 @@
+body {
+  background-color: rgb(255, 205, 205);
+}
+#bum {
+  background-color: chartreuse;
+}
+.color {
+  background-color: brown;
+}
+
+input[type="submit"] {
+  background-color: black;
+  color: white;
+}
+
+input[type="submit"]:hover {
+  background-color: blueviolet;
+}
