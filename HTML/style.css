@@ -3,6 +3,8 @@ body {
 }
 #bum {
   background-color: chartreuse;
+  width: 500px;
+  height: 200;
 }
 .color {
   background-color: brown;
