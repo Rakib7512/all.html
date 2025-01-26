@@ -1,47 +1,64 @@
-body *{
-    margin: 0px;
-    padding: 0px
+* {
+  margin: 0px;
+  padding: 0px;
 }
-nav{
-    background-color: aqua;
-    height: 10vh;
-    width: 100%;
-    display: block;
-    text-align: center;
-    padding: 0px;
-    margin:0px 0px 0px0px;
+nav {
+  background-color: aqua;
+  height: 10vh;
+  width: 100%;
+  display: block;
+  text-align: center;
+  padding: 0px;
+  margin: 0px 0px 0px 0px;
 }
-h1{
-    padding: 15px;
+h1 {
+  padding: 15px;
+ 
 }
-#Sidebar{ width: 200px;
-    background-color:blanchedalmond;
-    color: black;
-    height: 70vh;
-    padding: 20px 0;
-    position: fixed;
-    width: 10%;
-    display: block;
+#Sidebar {
+  background-color: blanchedalmond;
+  color: black;
+  height: 85vh;
+  width: 10%;
+  display: block;
+  float: left;
 }
 
-
-ul li{
-    margin: 05px 5px 5px 5px;
-    padding: 0%; 
-    list-style: none;
-   
-
-}
-a{
-    text-decoration: none;
-}
-a:hover{
-    background-color: black;
-    color: beige;
-} 
-#ifream{
+ul li {
+  margin: 5px 5px 5px 5px;
+  padding: 10px
+  list-style: none;
+  /* float: left; */
+  text-align: center;
+  background-color: burlywood;
   
-   float:right;
-width: 90%;
-height: 80;
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  background-color: black;
+  color: beige;
+}
+#ifream {
+  float: right;
+  width: 90%;
+  height: 85vh;
+}
+
+iframe {
+  width: 100%;
+  height: 85vh;
+}
+
+#main {
+  width: 100%;
+  height: 85vh;
+}
+
+footer {
+  background-color: black;
+  color: #ffffff;
+  height: 5vh;
+  text-align: center;
 }
